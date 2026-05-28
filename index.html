@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Install Dark Mode Enforcer</title>
+  <style>
+    :root { color-scheme: dark; background: #090909; color: #f4f4f5; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; font-family: Inter, system-ui, sans-serif; padding: 24px; }
+    .card { max-width: 720px; width: 100%; border-radius: 28px; background: rgba(15,15,20,0.95); border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 28px 80px rgba(0,0,0,0.25); padding: 32px; }
+    h1 { margin: 0 0 0.75rem; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.05; }
+    p { margin: 0.75rem 0; color: #ddd; line-height: 1.75; }
+    .button { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.95rem 1.6rem; border-radius: 999px; background: linear-gradient(135deg, #5c6cff 0%, #39d5ff 100%); color: #fff; font-weight: 700; text-decoration: none; border: none; cursor: pointer; }
+    .button:hover { transform: translateY(-1px); box-shadow: 0 18px 40px rgba(60,130,255,0.24); }
+    .note { margin-top: 1.5rem; padding: 16px; border-radius: 18px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: #bbb; }
+    code { display: block; padding: 0.75rem 1rem; border-radius: 14px; background: rgba(255,255,255,0.05); color: #e8e8e8; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Install Dark Mode Enforcer</h1>
+    <p>Click the button below to open the userscript in Violentmonkey. If Violentmonkey detects it, it should offer to install the script automatically.</p>
+    <p><a class="button" href="https://raw.githubusercontent.com/JUJUx1/violentmonkey-dark-mode-enforcer/main/userscripts/dark-mode-enforcer.user.js">Install in Violentmonkey</a></p>
+    <div class="note">
+      <strong>Tip:</strong> If the browser opens the script as text, use Violentmonkey's import feature and paste this URL.
+      <code>https://raw.githubusercontent.com/JUJUx1/violentmonkey-dark-mode-enforcer/main/userscripts/dark-mode-enforcer.user.js</code>
+    </div>
+  </main>
+</body>
+</html>
