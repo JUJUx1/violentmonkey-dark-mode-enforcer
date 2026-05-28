@@ -30,8 +30,8 @@ MIT
 
 Install page
 
-Open `index.html` in the repository or visit:
+Open `index.html` in the repository or visit the GitHub Pages site:
 
-https://raw.githubusercontent.com/JUJUx1/violentmonkey-dark-mode-enforcer/main/index.html
+https://jujux1.github.io/violentmonkey-dark-mode-enforcer/
 
-This page contains an install button and a direct link to the userscript. For a proper webpage, use GitHub Pages once enabled.
+This page contains an install button and links directly to the raw userscript for Violentmonkey.
