@@ -27,3 +27,11 @@ Development
 License
 
 MIT
+
+Install page
+
+Open `install.html` in the repository or visit:
+
+https://raw.githubusercontent.com/JUJUx1/violentmonkey-dark-mode-enforcer/main/install.html
+
+This page redirects automatically to the userscript raw URL for Violentmonkey installation.
